@@ -11,5 +11,5 @@ General information
 ### Projects
 Links to projects I have contributed
 
-###Contact
+### Contact
 Everything you would need to reach out
