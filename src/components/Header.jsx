@@ -4,7 +4,7 @@ import RotateButton from "./RotateButton";
 import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "MAIN", href: "main", current: true },
+  { name: "MAIN", href: "main", current: false },
   { name: "PORTFOLIO", href: "portfolio", current: false },
   { name: "CONTACT", href: "contact", current: false },
 ];
@@ -15,7 +15,10 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-black sm:bg-violet-950">
+    <Disclosure
+      as="nav"
+      className="fixed w-screen bg-black sm:bg-retro-dark-blue"
+    >
       {({ open }) => (
         <>
           <div>
@@ -46,7 +49,7 @@ export default function Header() {
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                            : "text-gray-300 hover:bg-retro-dark-pink hover:text-white",
                           "rounded-md px-3 py-2 font-medium text-4xl"
                         )}
                         aria-current={item.current ? "page" : undefined}

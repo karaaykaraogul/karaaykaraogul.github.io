@@ -13,6 +13,7 @@ function App() {
       <Navigate to="main" />
       <div>
         <Header />
+        <div className="pt-16"></div>
         <Outlet />
       </div>
     </>

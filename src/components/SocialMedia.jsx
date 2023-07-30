@@ -9,6 +9,7 @@ export default function SocialMedia() {
           href={socialMediaLinks.github}
           target="_blank"
           rel="noopener noreferrer"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150 hover:duration-300"
         >
           <img src="/icons/github_icon.png" width={50} height={50}></img>
         </a>
@@ -19,6 +20,7 @@ export default function SocialMedia() {
           href={socialMediaLinks.linkedin}
           target="_blank"
           rel="noopener noreferrer"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150 hover:duration-300"
         >
           <img src="/icons/linkedin.png" width={50} height={50}></img>
         </a>
@@ -29,6 +31,7 @@ export default function SocialMedia() {
           href={`mailto:${socialMediaLinks.gmail}`}
           target="_blank"
           rel="noopener noreferrer"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150 hover:duration-300"
         >
           <img src="/icons/mail.png" width={60} height={60}></img>
         </a>
