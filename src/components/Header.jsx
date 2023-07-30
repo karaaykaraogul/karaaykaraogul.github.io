@@ -35,7 +35,7 @@ export default function Header() {
               <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
                 <div className="flex rounded-md px-10 text-white items-center bg-transparent sm:bg-black">
                   <RotateButton />
-                  <p className="text-4xl">Karaay Karaoğul</p>
+                  <p className="text-4xl p-3 sm:p-0">Karaay Karaoğul</p>
                 </div>
                 <div className="flex-1 hidden sm:grid text-4xl">
                   <div className="flex space-x-4">

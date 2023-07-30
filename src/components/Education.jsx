@@ -9,7 +9,7 @@ export default function Education() {
           Education
         </p>
       </div>
-      <div className="grid grid-cols-2 grid-flow-row-dense text-sm sm:text-2xl ">
+      <div className="grid grid-rows-2 sm:grid-cols-2 sm:grid-rows-1 grid-flow-row-dense text-sm sm:text-2xl bg-slate-500">
         {educationInfo.schools.map((item) => (
           <div className="grid grid-rows-2 grid-flow-col-dense border-x-2 px-1">
             <div className="bg-red-500">
@@ -20,7 +20,7 @@ export default function Education() {
                 {item.subHeader}
               </p>
             </div>
-            <div className="bg-slate-500">
+            <div>
               <p>{item.duration}</p>
               <p>{item.desc}</p>
             </div>
