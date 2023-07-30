@@ -1,8 +1,7 @@
-import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import RotateButton from "./RotateButton";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const navigation = [
   { name: "MAIN", href: "main", current: true },
@@ -19,7 +18,6 @@ export default function Header() {
     <Disclosure as="nav" className="bg-black sm:bg-violet-950">
       {({ open }) => (
         <>
-          {/* <meta charSet="UTF-8"></meta> */}
           <div>
             <div className="relative flex h-wrap md:h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

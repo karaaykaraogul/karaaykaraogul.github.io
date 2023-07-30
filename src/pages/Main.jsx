@@ -1,18 +1,27 @@
 import React from "react";
+import Greeting from "../components/Greeting";
+import Education from "../components/Education";
 
 export default function Main() {
   return (
-    <div className="flex justify-center items-center py-12">
-      <div className="grid justify-center items-center text-center text-white/100 box-border h-wrap w-8/12 rounded-md border-4 border-indigo-500">
-        <div className="py-5">
-          <h1>HERE BE MAIN</h1>
-          <p>TEST: TEST</p>
-          <p>TEST: TEST</p>
-          <p>TEST: TEST</p>
-          <p>TEST: TEST</p>
-          <p>TEST: TEST</p>
-          <p>TEST: TEST</p>
+    <div>
+      <div className="grid grid-cols-12 justify-center items-center ">
+        <div className="bg-slate-800 w-full h-full"></div>
+        <div className="col-span-10 justify-center items-center text-white/100 box-border w-full h-wrap rounded-md border-4 border-indigo-500 pt-12">
+          <div className="py-5">
+            <Greeting />
+          </div>
         </div>
+        <div className="bg-slate-800 w-full h-full"></div>
+      </div>
+      <div className="grid grid-cols-12 justify-center items-center">
+        <div className="bg-slate-800 w-full h-full"></div>
+        <div className="col-span-10 justify-center items-center text-white/100 box-border w-full h-wrap rounded-md border-4 border-indigo-500">
+          <div className="py-5">
+            <Education />
+          </div>
+        </div>
+        <div className="bg-slate-800 w-full h-full"></div>
       </div>
     </div>
   );
