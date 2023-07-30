@@ -7,7 +7,7 @@ export default {
         "retro-dark-blue": "#2D4356",
         "retro-light-blue": "#435B66",
         "retro-dark-pink": "#A76F6F",
-        "retro-light-pink": "#EAB2A0",
+        "retro-light-pink": "#C49586",
       },
     },
   },

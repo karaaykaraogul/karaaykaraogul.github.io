@@ -8,7 +8,7 @@ export default function Greeting() {
       <div className="text-center text-5xl sm:text-left sm:text-8xl py-10">
         <h1>{greeting.title}</h1>
       </div>
-      <div className="textl-xl whitespace-pre-wrap sm:text-2xl justify-center items-center text-center">
+      <div className="textl-xl whitespace-pre-wrap sm:text-2xl justify-center items-center text-left">
         <p>{greeting.summary}</p>
       </div>
       <div className="">
