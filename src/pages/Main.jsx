@@ -18,7 +18,7 @@ export default function Main() {
       <div className="grid grid-cols-12 justify-center items-center">
         <div className="bg-retro-light-blue w-full h-full"></div>
         <div className="col-span-10 justify-center items-center text-white/100 box-border w-full h-wrap rounded-md border-4 border-retro-light-pink">
-          <div className="py-5">
+          <div className="pt-5">
             <Education />
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function Main() {
       <div className="grid grid-cols-12 justify-center items-center">
         <div className="bg-retro-light-blue w-full h-full"></div>
         <div className="col-span-10 justify-center items-center text-white/100 box-border w-full h-wrap rounded-md border-4 border-retro-light-pink">
-          <div className="py-5">
+          <div className="pt-5">
             <WorkExperience />
           </div>
         </div>
