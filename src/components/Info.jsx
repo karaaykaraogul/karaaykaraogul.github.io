@@ -34,7 +34,7 @@ const workExperiences = {
       role: "VR Game Developer",
       company: "Panteon",
       date: "September 2022 - May 2023",
-      desc: "Worked on a semi-realistic game for Quest 2 Headset as a VR Game Developer",
+      desc: "Worked on a semi-realistic game for Quest 2 Headset as a VR Game Developer.",
       descBullets: [
         "Used C# language with a great emphasis on Clean Code and Design Patterns in order to achieve the best performance and maintainability on a limited platform.",
         "I have contributed to weekly and overall planning of the project and learnt to work efficiently in a fast paced environment.",

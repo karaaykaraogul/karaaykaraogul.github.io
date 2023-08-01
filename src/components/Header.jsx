@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className="fixed w-screen bg-black sm:bg-retro-dark-blue"
+      className="fixed w-screen z-50 bg-black sm:bg-retro-dark-blue"
     >
       {({ open }) => (
         <>

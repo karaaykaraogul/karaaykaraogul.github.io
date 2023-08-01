@@ -8,20 +8,24 @@ export default function WorkExperienceBulletPoints(experience) {
   const [expanded, setExpanded] = useState(false);
   return (
     <div>
-      {experience.descBullets?.map((item) =>
-        expanded ? (
+      <p>{experience.desc}</p>
+      {!expanded && experience.descBullets ? <p>...</p> : null}
+      <div
+        className={`transition-all duration-200 origin-top    ${
+          expanded ? "h-full scale-y-100" : "h-0 scale-y-0"
+        }`}
+      >
+        {experience.descBullets?.map((item) => (
           <div>
-            <p>
-              <br />
-              {item}
-            </p>
+            <br></br>
+            <p>{item}</p>
           </div>
-        ) : null
-      )}
+        ))}
+      </div>
       {experience.descBullets && (
         <div className="justify-center items-center text-center p-4">
           <button
-            className="border-4 rounded-lg p-2 w-40 bg-retro-dark-pink border-retro-dark-blue border-width transition ease-in-out hover:scale-110 hover:-translate-y-1  hover:duration-150"
+            className="shadow-lg shadow-black bg-opacity-50 border-4 rounded-lg p-2 w-40 bg-retro-dark-pink border-retro-dark-blue border-width transition ease-in-out hover:scale-110 hover:-translate-y-1  hover:duration-150 hover:bg-opacity-100"
             onClick={() => setExpanded(!expanded)}
           >
             {!expanded ? (
