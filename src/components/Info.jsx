@@ -67,4 +67,39 @@ const workExperiences = {
   ],
 };
 
-export { greeting, socialMediaLinks, educationInfo, workExperiences };
+const projects = {
+  repositories: [
+    {
+      name: "Midcore Strategy Game",
+      link: "https://github.com/karaaykaraogul/Mid-Core-Strategy-Game",
+      techstack: "C#, Unity",
+    },
+    {
+      name: "Personal Github Page",
+      link: "https://github.com/karaaykaraogul/karaaykaraogul.github.io",
+      techstack: "React + Vite, Tailwind, HTML/CSS/JS",
+    },
+    {
+      name: "Ne Yesem",
+      link: "https://github.com/karaaykaraogul/Ne_Yesem",
+      techstack: "React Native, Expo, Firebase, JavaScript",
+    },
+    {
+      name: "HyperCasual Platform Runner",
+      link: "https://github.com/karaaykaraogul/HyperCasual-PlatformRunner",
+      techstack: "C#, Unity",
+    },
+    {
+      name: "Quest-Map",
+      link: "https://github.com/karaaykaraogul/quest-map",
+      techstack: "Java, Google Maps API, MySQL",
+    },
+    {
+      name: "Computer Graphics - 3D Object Project",
+      link: "https://github.com/karaaykaraogul/ComputerGraphics_Project",
+      techstack: "C++",
+    },
+  ],
+};
+
+export { greeting, socialMediaLinks, educationInfo, workExperiences, projects };
