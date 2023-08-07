@@ -5,33 +5,33 @@ import WorkExperience from "../components/WorkExperience";
 
 export default function Main() {
   return (
-    <div>
+    <div className="space-y-20">
       <div className="grid grid-cols-12 justify-center items-center ">
-        <div className="bg-retro-light-blue w-full h-full"></div>
-        <div className="col-span-10 justify-center items-center text-white/100 box-border w-full h-wrap rounded-md border-4 border-retro-light-pink pt-12">
+        <div className="w-full h-full"></div>
+        <div className="col-span-10 justify-center items-center box-border w-full h-wrap rounded-md border-4 border-side-secondary pt-12 bg-main-secondary">
           <div className="py-5">
             <Greeting />
           </div>
         </div>
-        <div className="bg-retro-light-blue w-full h-full"></div>
+        <div className="w-full h-full"></div>
       </div>
       <div className="grid grid-cols-12 justify-center items-center">
-        <div className="bg-retro-light-blue w-full h-full"></div>
-        <div className="col-span-10 justify-center items-center text-white/100 box-border w-full h-wrap rounded-md border-4 border-retro-light-pink">
+        <div className="w-full h-full"></div>
+        <div className="col-span-10 justify-center items-center box-border w-full h-wrap rounded-md">
           <div className="pt-5">
             <Education />
           </div>
         </div>
-        <div className="bg-retro-light-blue w-full h-full"></div>
+        <div className="w-full h-full"></div>
       </div>
       <div className="grid grid-cols-12 justify-center items-center">
-        <div className="bg-retro-light-blue w-full h-full"></div>
-        <div className="col-span-10 justify-center items-center text-white/100 box-border w-full h-wrap rounded-md border-4 border-retro-light-pink">
+        <div className="w-full h-full"></div>
+        <div className="col-span-10 justify-center items-center box-border w-full h-wrap rounded-md">
           <div className="pt-5">
             <WorkExperience />
           </div>
         </div>
-        <div className="bg-retro-light-blue w-full h-full"></div>
+        <div className="w-full h-full"></div>
       </div>
     </div>
   );

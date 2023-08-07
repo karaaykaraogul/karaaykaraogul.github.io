@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className="fixed w-screen z-50 bg-black sm:bg-retro-dark-blue"
+      className="fixed w-screen z-50 bg-black sm:bg-header-primary sm:shadow-2xl sm:shadow-black/50"
     >
       {({ open }) => (
         <>
@@ -49,7 +49,7 @@ export default function Header() {
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-retro-dark-pink hover:text-white",
+                            : " transition-all duration-200 hover:bg-side-primary hover:text-white",
                           "rounded-md px-3 py-2 font-medium text-4xl"
                         )}
                         aria-current={item.current ? "page" : undefined}

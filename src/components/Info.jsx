@@ -1,7 +1,7 @@
 const greeting = {
   name: "Karaay Karaoğul",
   title: "Hello! I'm Karaay.",
-  summary: `A passionate and a highly motivated developer.\nWelcome to my personal github page.`,
+  summary: `Welcome to my personal github page.\n\nI am a highly motivated and passionate developer with a solid background and experience in software development.\n\nI thrive on taking initiative and collaborating on projects, bringing strong problemsolving skills and attention to detail to every task.`,
 };
 
 const socialMediaLinks = {

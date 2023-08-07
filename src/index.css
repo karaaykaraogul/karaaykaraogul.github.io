@@ -1,5 +1,12 @@
 @tailwind base;
 @tailwind components;
+
+@layer components {
+  .border-hover {
+    @apply border-8 transition-all duration-300 border-b-main-primary border-l-main-primary border-t-orange-300 border-r-orange-300 hover:border-t-main-primary hover:border-r-main-primary hover:border-b-orange-300 hover:border-l-orange-300;
+  }
+}
+
 @tailwind utilities;
 
 html,
@@ -13,7 +20,7 @@ body {
 html {
   margin: 0;
   height: 100%;
-  background-image: linear-gradient(#2d4356, #2d4356);
+  background-color: #d3f5ee;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

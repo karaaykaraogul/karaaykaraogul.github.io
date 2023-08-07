@@ -4,10 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "retro-dark-blue": "#2D4356",
-        "retro-light-blue": "#435B66",
-        "retro-dark-pink": "#A76F6F",
-        "retro-light-pink": "#C49586",
+        "main-primary": "#475ADB",
+        "main-secondary": "#E4F3EE",
+        "side-primary": "#23A0DB",
+        "side-secondary": "#23A0DB",
+        "header-primary": "#d3f5ee",
       },
     },
   },

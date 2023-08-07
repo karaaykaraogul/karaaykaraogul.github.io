@@ -25,20 +25,16 @@ export default function WorkExperienceBulletPoints(experience) {
       {experience.descBullets && (
         <div className="justify-center items-center text-center p-4">
           <button
-            className="shadow-lg shadow-black bg-opacity-50 border-4 rounded-lg p-2 w-40 bg-retro-dark-pink border-retro-dark-blue border-width transition ease-in-out hover:scale-110 hover:-translate-y-1  hover:duration-150 hover:bg-opacity-100"
+            className="shadow-lg shadow-black bg-opacity-50 border-4 rounded-lg p-2  border-width transition ease-in-out hover:scale-110 hover:-translate-y-1  hover:duration-150 hover:bg-opacity-100"
             onClick={() => setExpanded(!expanded)}
           >
             {!expanded ? (
               <div className="flex align-middle justify-center text-center">
-                <ChevronDoubleDownIcon className="h-10 w-10" />
-                <p className="text-2xl">Expand</p>
-                <ChevronDoubleDownIcon className="h-10 w-10" />
+                <ChevronDoubleDownIcon className="h-8 w-8" />
               </div>
             ) : (
               <div className="flex align-middle justify-center">
-                <ChevronDoubleUpIcon className="h-10 w-10" />
-                <p className="text-2xl">Collapse</p>
-                <ChevronDoubleUpIcon className="h-10 w-10" />
+                <ChevronDoubleUpIcon className="h-8 w-8" />
               </div>
             )}
           </button>
