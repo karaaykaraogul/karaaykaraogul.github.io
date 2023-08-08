@@ -42,7 +42,7 @@ export default function Header() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
-                <div className=" flex md:h-16 rounded-r-md px-12 justify-items-center text-white items-center bg-transparent sm:bg-black font-medium">
+                <div className=" flex md:h-16 rounded-r-md px-12 justify-items-center text-white items-center bg-transparent sm:bg-black sm:font-medium">
                   <RotateButton />
                   <p className="text-4xl p-3 sm:p-0">Karaay Karaoğul</p>
                 </div>
