@@ -8,6 +8,9 @@ const socialMediaLinks = {
   github: "https://github.com/karaaykaraogul",
   linkedin: "https://www.linkedin.com/in/karaaykaraogul/",
   gmail: "karaaydev@gmail.com",
+  instagram: "https://www.instagram.com/karaaykaraogul/",
+  leetcode: "https://leetcode.com/Karaay/",
+  twitter: "https://twitter.com/karaaykaraogul",
 };
 
 const educationInfo = {

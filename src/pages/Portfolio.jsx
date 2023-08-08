@@ -10,7 +10,7 @@ export default function Portfolio() {
           <div>
             <Projects />
           </div>
-          <div className="flex gap-1 py-10 justify-items-center justify-center items-center text-center bg-main-secondary text-2xl">
+          <div className="flex gap-1 py-10 justify-items-center justify-center items-center text-center bg-main-secondary sm:text-2xl">
             <p className="">More can be found on my </p>
             <a
               className="underline underline-offset-8 text-blue-400 hover:text-blue-950"
