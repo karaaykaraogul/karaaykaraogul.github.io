@@ -83,7 +83,7 @@ export default function TypewriterEffect({
     typingSpeed,
     deletingSpeed,
     defaultWordPause,
-    firstWordPause, // Added to dependencies
+    firstWordPause,
   ]);
 
   // Cursor blinking effect
